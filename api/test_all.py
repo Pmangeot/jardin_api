@@ -1,11 +1,11 @@
 import os
 import time
 
-import alembic.config
-import pytest
-from sqlalchemy.exc import DataError, IntegrityError
-from sqlalchemy.orm import sessionmaker
-from starlette.testclient import TestClient
+import alembic.config # type: ignore
+import pytest # type: ignore
+from sqlalchemy.exc import DataError, IntegrityError # type: ignore
+from sqlalchemy.orm import sessionmaker # type: ignore
+from starlette.testclient import TestClient # type: ignore
 
 from api.main import app
 from api.repository import (

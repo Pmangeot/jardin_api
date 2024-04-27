@@ -20,7 +20,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-All other parts of the code not derived from the FastApi template provided by BiteStreams are licensed under the above License. (please refer to the initial commit for FastApi template code)
+All parts of the code not derived from the FastApi template provided by BiteStreams 
+are licensed under the above License. 
+(please refer to the initial commit for FastApi template code)
 
 MIT License
 

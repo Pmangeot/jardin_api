@@ -1,8 +1,8 @@
 from typing import List, Optional
 
-from fastapi import Depends, FastAPI, HTTPException
-from starlette.responses import RedirectResponse
-from starlette.status import HTTP_201_CREATED
+from fastapi import Depends, FastAPI, HTTPException # type: ignore
+from starlette.responses import RedirectResponse # type: ignore
+from starlette.status import HTTP_201_CREATED # type: ignore
 
 from api.repository import Todo, TodoFilter, TodoRepository, create_todo_repository
 

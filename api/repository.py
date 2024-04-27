@@ -2,10 +2,10 @@ import os
 from functools import lru_cache
 from typing import Iterator, List, Optional
 
-from pydantic import BaseModel
-from sqlalchemy import Boolean, Column, Integer, String, create_engine
-from sqlalchemy.exc import DatabaseError
-from sqlalchemy.orm import Session, declarative_base, sessionmaker
+from pydantic import BaseModel # type: ignore
+from sqlalchemy import Boolean, Column, Integer, String, create_engine # type: ignore
+from sqlalchemy.exc import DatabaseError # type: ignore
+from sqlalchemy.orm import Session, declarative_base, sessionmaker # type: ignore
 
 SQL_BASE = declarative_base()
 
